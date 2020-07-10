@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "612785444979",
+    "firebase_url": "https://alarme-29d02.firebaseio.com",
+    "project_id": "alarme-29d02",
+    "storage_bucket": "alarme-29d02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612785444979:android:afd1b364447ed3abda3206",
+        "android_client_info": {
+          "package_name": "com.github.ppartisan.simplealarms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612785444979-r3ljbsfvgl9pl258ldklq9bivm22kkou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoGp3a47PTdR2K8dIs3J4pSyNtwfyozO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612785444979-r3ljbsfvgl9pl258ldklq9bivm22kkou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
