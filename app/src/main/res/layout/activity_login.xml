@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_grey_900"
+    android:paddingStart="35dp"
+    android:paddingEnd="35dp"
+    android:orientation="vertical"
+
+    tools:context=".ui.ui.login"
+    android:paddingLeft="35dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding ="15dp"
+            android:layout_centerVertical="true"
+             android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:tint="@color/green_400"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+
+            />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+
+            android:textColor="@color/blue_grey_500"
+            android:textStyle="bold"
+            />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginRight="-4dp"
+            android:maxLength="50"
+             android:maxLines="1"
+            android:id="@+id/email_ed_login"
+            android:singleLine="true"
+            android:textColor="@color/blue_grey_300"
+         />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" ></View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+
+            android:textColor="@color/blue_grey_500"
+            android:textStyle="bold"
+            />
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginRight="-4dp"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:id="@+id/password_ed_login"
+            android:singleLine="true"
+            android:textColor="@color/blue_grey_300"
+            android:inputType="textPassword"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            ></View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:text="Forgot Password"
+            android:textColor="@color/blue_grey_300"
+            android:textStyle="bold"
+            />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"></View>
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="-4dp"
+            android:layout_marginLeft="-4dp"
+            android:textAllCaps="false"
+            android:textColor="@color/blue_grey_900"
+            android:onClick="LoginUser"
+            android:text="LOGIN ;)"
+            />
+          <!--button shape can be changed we this  android:background="@"-->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New User"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/blue_grey_300"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:onClick="gotoRegister"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/green_300"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+        
+        </LinearLayout>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/green_400"
+            android:visibility="gone"
+            android:id="@+id/progressBarLogin"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
