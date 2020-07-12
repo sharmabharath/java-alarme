@@ -2,7 +2,7 @@ package com.github.ppartisan.simplealarms.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.util.SparseBooleanArray;
 
 import java.lang.annotation.Retention;

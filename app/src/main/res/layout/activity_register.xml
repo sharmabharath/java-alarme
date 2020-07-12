@@ -9,7 +9,7 @@
     android:paddingEnd="35dp"
     android:orientation="vertical"
 
-    tools:context=".ui.ui.login"
+    tools:context=".ui.Login.login"
     android:paddingLeft="35dp">
 
     <RelativeLayout
@@ -48,7 +48,7 @@
                 android:textStyle="bold"
                 />
 
-            <android.support.design.widget.TextInputEditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="-4dp"
@@ -73,7 +73,7 @@
                 android:textColor="@color/blue_grey_500"
                 android:textStyle="bold"
                 />
-            <android.support.design.widget.TextInputEditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="-4dp"
@@ -103,7 +103,7 @@
                 android:textColor="@color/blue_grey_500"
                 android:textStyle="bold"
                 />
-            <android.support.design.widget.TextInputEditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="-4dp"
@@ -126,8 +126,9 @@
                 android:layout_marginRight="-4dp"
                 android:layout_marginLeft="-4dp"
                 android:textAllCaps="false"
+                android:onClick="RegisterUser"
                 android:textColor="@color/blue_grey_900"
-                android:text="LOGIN ;)"
+                android:text="REGISTER"
                 />
             <!--button shape can be changed we this  android:background="@"-->
 
@@ -155,6 +156,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:onClick="gotoLogin"
                     android:text=" Login"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                     android:textColor="@color/green_300"

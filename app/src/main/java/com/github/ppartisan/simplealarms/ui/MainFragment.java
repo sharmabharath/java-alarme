@@ -3,16 +3,15 @@ package com.github.ppartisan.simplealarms.ui;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v4.app.Fragment;
-import android.support.v4.content.LocalBroadcastManager;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
+
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.github.ppartisan.simplealarms.R;
 import com.github.ppartisan.simplealarms.adapter.AlarmsAdapter;
@@ -22,6 +21,7 @@ import com.github.ppartisan.simplealarms.service.LoadAlarmsService;
 import com.github.ppartisan.simplealarms.util.AlarmUtils;
 import com.github.ppartisan.simplealarms.view.DividerItemDecoration;
 import com.github.ppartisan.simplealarms.view.EmptyRecyclerView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 

@@ -33,9 +33,4 @@ public class login extends AppCompatActivity {
         Intent i = new Intent(login.this, register.class);
         startActivity(i);
     }
-
-    public void forgotPassword(View v)
-    {
-
-    }
 }

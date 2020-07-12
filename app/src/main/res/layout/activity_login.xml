@@ -9,7 +9,7 @@
     android:paddingEnd="35dp"
     android:orientation="vertical"
 
-    tools:context=".ui.ui.login"
+    tools:context=".ui.Login.login"
     android:paddingLeft="35dp">
 
     <RelativeLayout
@@ -48,7 +48,7 @@
             android:textStyle="bold"
             />
 
-        <android.support.design.widget.TextInputEditText
+        <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="-4dp"
@@ -73,7 +73,7 @@
             android:textColor="@color/blue_grey_500"
             android:textStyle="bold"
             />
-        <android.support.design.widget.TextInputEditText
+        <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="-4dp"
@@ -95,6 +95,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_marginTop="5dp"
+            android:onClick="forgotPassword"
             android:text="Forgot Password"
             android:textColor="@color/blue_grey_300"
             android:textStyle="bold"
@@ -140,7 +141,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sign Up"
+                android:text="  Sign Up"
                 android:onClick="gotoRegister"
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                 android:textColor="@color/green_300"

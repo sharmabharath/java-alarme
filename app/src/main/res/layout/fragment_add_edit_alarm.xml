@@ -79,7 +79,7 @@
             android:layout_marginBottom="@dimen/list_padding_vertical_small"
             android:background="@drawable/divider" />
 
-        <android.support.v7.widget.GridLayout
+        <androidx.gridlayout.widget.GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:columnCount="2">
@@ -197,7 +197,7 @@
                 app:layout_gravity="center_vertical"/>
 
 
-        </android.support.v7.widget.GridLayout>
+        </androidx.gridlayout.widget.GridLayout>
 
     </LinearLayout>
 
